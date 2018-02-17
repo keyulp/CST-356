@@ -1,11 +1,11 @@
-﻿using System.Data.Entity;
-using System.Reflection;
+﻿using System.Reflection;
 using System.Web.Mvc;
 using SimpleInjector;
 using SimpleInjector.Integration.Web;
 using SimpleInjector.Integration.Web.Mvc;
 using Lab_Week_5.Data;
 using Lab_Week_5.Repositories;
+using Lab_Week_5.Services;
 
 namespace Lab_Week_5.App_Start
 {
@@ -19,6 +19,8 @@ namespace Lab_Week_5.App_Start
 
             // Register your types, for instance:
             container.Register<IRepository, Repository>(Lifestyle.Scoped);
+            container.Register<IKidService, KidService>(Lifestyle.Scoped);
+            container.Register<IUserService, UserService>(Lifestyle.Scoped);
             container.Register<DatabaseContext, DatabaseContext>(Lifestyle.Scoped);
 
             // This is an extension method from the integration package.

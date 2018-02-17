@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Web.Mvc;
-using Lab_Week_5.Data;
-using Lab_Week_5.Data.Entities;
+﻿using System.Web.Mvc;
 using Lab_Week_5.Models.View;
-using Lab_Week_5.Repositories;
+using Lab_Week_5.Services;
 
 namespace Lab_Week_5.Controllers
 {
     public class UserController : Controller
     {
-        private readonly Repository _repository;
+        private readonly IUserService _userService;
 
-        public UserController(Repository repository)
+        public UserController(IUserService userService)
         {
-            _repository = repository;
+            _userService = userService;
         }
 
         [HttpGet]
@@ -28,9 +24,7 @@ namespace Lab_Week_5.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = MapToUser(userViewModel);
-
-                _repository.SaveUser(user);
+                _userService.SaveUser(userViewModel);
 
                 return RedirectToAction("List");
             }
@@ -42,14 +36,14 @@ namespace Lab_Week_5.Controllers
 
         public ActionResult List()
         {
-            var userViewModels = _repository.GetAllUsers();
+            var userViewModels = _userService.GetAllUsers();
 
             return View(userViewModels);
         }
 
         public ActionResult Details(int id)
         {
-            var userViewModel = _repository.GetUser(id);
+            var userViewModel = _userService.GetUser(id);
 
             return View(userViewModel);
         }
@@ -57,7 +51,7 @@ namespace Lab_Week_5.Controllers
         [HttpGet]
         public ActionResult Edit(int id)
         {
-            var user = _repository.GetUser(id);
+            var user = _userService.GetUser(id);
 
             return View(user);
         }
@@ -67,63 +61,19 @@ namespace Lab_Week_5.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = _repository.GetUser(userViewModel.Id);
-
-                CopyToUser(userViewModel, user);
-
-                _repository.UpdateUser(user);
+                _userService.UpdateUser(userViewModel);
 
                 return RedirectToAction("List");
             }
+
             return View();
         }
 
         public ActionResult Delete(int id)
         {
-            _repository.DeleteUser(id);
+            _userService.DeleteUser(id);
 
             return RedirectToAction("List");
-        }
-
-
-
-        private User MapToUser(UserViewModel userViewModel)
-        {
-            return new User
-            {
-                Id = userViewModel.Id,
-                FirstName = userViewModel.FirstName,
-                MiddleName = userViewModel.MiddleName,
-                LastName = userViewModel.LastName,
-                EmailAddress = userViewModel.EmailAddress,
-                DateOfBirth = userViewModel.DOB,
-                YearsInSchool = userViewModel.YearsInSchool
-            };
-        }
-
-        private UserViewModel MapToUserViewModel(User user)
-        {
-            return new UserViewModel
-            {
-                Id = user.Id,
-                FirstName = user.FirstName,
-                MiddleName = user.MiddleName,
-                LastName = user.LastName,
-                EmailAddress = user.EmailAddress,
-                DOB = user.DateOfBirth,
-                YearsInSchool = user.YearsInSchool
-            };
-        }
-
-
-        private void CopyToUser(UserViewModel userViewModel, User user)
-        {
-            user.FirstName = userViewModel.FirstName;
-            user.MiddleName = userViewModel.MiddleName;
-            user.LastName = userViewModel.LastName;
-            user.EmailAddress = userViewModel.EmailAddress;
-            user.DateOfBirth = userViewModel.DOB;
-            user.YearsInSchool = userViewModel.YearsInSchool;
         }
     }
 }

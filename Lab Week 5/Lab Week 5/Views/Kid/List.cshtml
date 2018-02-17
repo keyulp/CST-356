@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<Lab_Week_5.Models.View.KidViewModel>
 
 @{
-    ViewBag.Title = "Kids";
+    ViewBag.Title = "List";
 }
 
 <h2>List</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create", new { userId = ViewBag.UserId })
+    @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
     <tr>
@@ -28,9 +28,6 @@
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Birthday)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.UserId)
         </th>
         <th></th>
     </tr>
@@ -54,9 +51,6 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Birthday)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.UserId)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |

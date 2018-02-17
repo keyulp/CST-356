@@ -75,3 +75,80 @@ C:\Users\keyul\Documents\Visual Studio 2017\Projects\Lab Week 5\Lab Week 5\bin\S
 C:\Users\keyul\Documents\Visual Studio 2017\Projects\Lab Week 5\Lab Week 5\bin\SimpleInjector.xml
 C:\Users\keyul\Documents\Visual Studio 2017\Projects\Lab Week 5\Lab Week 5\bin\SimpleInjector.Integration.Web.xml
 C:\Users\keyul\Documents\Visual Studio 2017\Projects\Lab Week 5\Lab Week 5\bin\SimpleInjector.Integration.Web.Mvc.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\ApplicationInsights.config
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\csc.exe
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\csc.exe.config
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\csc.rsp
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\csi.exe
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\csi.rsp
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\System.AppContext.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\vbc.exe
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\vbc.exe.config
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\vbc.rsp
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\VBCSCompiler.exe
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Lab Week 5.dll.config
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Lab Week 5.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Lab Week 5.pdb
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Antlr3.Runtime.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\EntityFramework.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\EntityFramework.SqlServer.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.AI.Web.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.ApplicationInsights.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Newtonsoft.Json.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\SimpleInjector.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\SimpleInjector.Integration.Web.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\SimpleInjector.Integration.Web.Mvc.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\System.Web.Helpers.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\System.Web.Mvc.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\System.Web.Optimization.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\System.Web.Razor.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\System.Web.WebPages.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\System.Web.WebPages.Razor.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\WebGrease.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\EntityFramework.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\EntityFramework.SqlServer.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\SimpleInjector.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\SimpleInjector.Integration.Web.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\SimpleInjector.Integration.Web.Mvc.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\System.Web.Helpers.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\System.Web.Mvc.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\System.Web.Optimization.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\System.Web.Razor.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\System.Web.WebPages.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\System.Web.WebPages.Razor.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Antlr3.Runtime.pdb
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Newtonsoft.Json.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.ApplicationInsights.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.AI.Web.xml
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\obj\Debug\Lab Week 5.csprojResolveAssemblyReference.cache
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\obj\Debug\Lab Week 5.dll
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\obj\Debug\Lab Week 5.pdb
