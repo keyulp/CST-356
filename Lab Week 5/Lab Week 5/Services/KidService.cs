@@ -55,13 +55,6 @@ namespace Lab_Week_5.Services
             _repository.DeleteKid(id);
         }
 
-        /*
-        public void KidsWithSameAge(KidViewModel kidViewModel)
-        {
-            
-        }
-        */
-
         private Kid MapToKid(KidViewModel kidViewModel)
         {
             return new Kid
@@ -77,9 +70,14 @@ namespace Lab_Week_5.Services
             };
         }
 
+        void NextBirthday(KidViewModel kidViewModel)
+        {
+            kidViewModel.NextBirthday = (kidViewModel.Birthday - DateTime.Now).Days < 14;
+        }
+
         private KidViewModel MapToKidViewModel(Kid kid)
         {
-            return new KidViewModel
+            var kidViewModel = new KidViewModel
             {
                 Id = kid.Id,
                 FirstName = kid.FirstName,
@@ -90,6 +88,12 @@ namespace Lab_Week_5.Services
                 Birthday = kid.Birthday,
                 UserId = kid.UserId
             };
+
+            NextBirthday(kidViewModel);
+            
+            ;
+
+            return kidViewModel;
         }
 
         private void CopyToKid(KidViewModel kidViewModel, Kid kid)

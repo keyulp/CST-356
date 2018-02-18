@@ -149,6 +149,7 @@ C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.AI.Dependency
 C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\bin\Microsoft.AI.Web.xml
-C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\obj\Debug\Lab Week 5.csprojResolveAssemblyReference.cache
 C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\obj\Debug\Lab Week 5.dll
 C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\obj\Debug\Lab Week 5.pdb
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\obj\Debug\Lab Week 5.csprojResolveAssemblyReference.cache
+C:\Users\keyul\Desktop\CST-356\Lab Week 5\Lab Week 5\obj\Debug\Lab Week 5.csproj.CoreCompileInputs.cache

@@ -68,7 +68,7 @@ namespace Lab_Week_5.Controllers
             {
                 _kidService.UpdateKid(kidViewModel);
 
-                return RedirectToAction("List");
+                return RedirectToAction("List", new { UserId = kidViewModel.UserId });
             }
 
             return View();
@@ -76,11 +76,11 @@ namespace Lab_Week_5.Controllers
 
         public ActionResult Delete(int id)
         {
-            var pet = _kidService.GetKid(id);
+            var kid = _kidService.GetKid(id);
 
             _kidService.DeleteKid(id);
 
-            return RedirectToAction("List", new { UserId = pet.UserId });
+            return RedirectToAction("List", new { UserId = kid.UserId });
         }
     }
 }

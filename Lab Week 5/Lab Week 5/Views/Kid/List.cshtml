@@ -4,10 +4,10 @@
     ViewBag.Title = "List";
 }
 
-<h2>List</h2>
+<h2>Kids</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "Create", new { UserId = ViewBag.UserId })
 </p>
 <table class="table">
     <tr>

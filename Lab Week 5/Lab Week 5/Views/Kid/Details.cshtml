@@ -58,9 +58,16 @@
             @Html.DisplayFor(model => model.Birthday)
         </dd>
 
+        <dt>
+            @Html.DisplayNameFor(model => model.NextBirthday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NextBirthday)
+        </dd>
     </dl>
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Back to List", "List", new { UserId = ViewBag.UserId })
 </p>

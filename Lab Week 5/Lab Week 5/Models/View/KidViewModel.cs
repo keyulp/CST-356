@@ -30,6 +30,9 @@ namespace Lab_Week_5.Models.View
         [Display(Name = "Kids' Birthday")]
         public DateTime Birthday { get; set; }
 
+        [Display(Name = "Birthday in Less Than 2 Weeks")]
+        public bool NextBirthday { get; set; }
+
         public int UserId { get; set; }
     }
 }
