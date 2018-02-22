@@ -1,0 +1,46 @@
+﻿body 
+{
+    background-color: steelblue;
+    font-family: Arial;
+    font-size: 15px;
+    color: darkred;
+}
+h2 
+{
+    background-color: red;
+    color: darkblue;
+    height: 40px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 35px;
+    text-align: center;
+}
+nav
+{
+    background-color:grey;
+    color: orangered;
+    height: 40px;
+    padding-top:1em;
+
+}
+section.BobRoss
+{
+    color:chartreuse;
+    font-style:italic;
+}
+section.paragraphs
+{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+table
+{
+    border:2px;
+    border:solid;
+    border-color:black;
+}
+
+footer
+{
+    padding-top:50px;
+}
